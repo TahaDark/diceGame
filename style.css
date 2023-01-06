@@ -93,3 +93,7 @@ main {
   background-color: #ff4e73;
   border-radius: 0 15px 15px 0;
 }
+
+.hide {
+  display: none;
+}
