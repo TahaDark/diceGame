@@ -12,6 +12,7 @@ const init = function () {
   score1 = 0;
   scoreEl1.textContent = 0;
   scoreEl0.textContent = 0;
+  btnEl.classList.remove("hide");
   diceEl0.classList.add("hide");
   diceEl1.classList.add("hide");
 };
@@ -50,6 +51,9 @@ btnEl.addEventListener("click", function () {
   ).src = `img/dice${dice[activePlayer]}.png`;
   switchPlayer();
   if (score0 === 3 || score1 === 3) {
-    init();
+    btnEl.classList.add("hide");
+    setTimeout(() => {
+      init();
+    }, 2000);
   }
 });
