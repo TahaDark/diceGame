@@ -18,7 +18,7 @@ const init = function () {
 };
 const switchPlayer = function () {
   if (activePlayer === 0) {
-    if (window.screen.width >= 703) {
+    if (window.screen.width >= 865) {
       document.querySelector(".btn-box").style.left = "50%";
     }
     activePlayer = 1;
