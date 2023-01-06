@@ -46,6 +46,7 @@ main {
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 3px;
+  color: rgb(19, 19, 19);
 }
 .btn-box {
   position: absolute;
@@ -71,11 +72,9 @@ main {
   font-weight: 400;
   margin-bottom: 5rem;
   transition: all 0.2s;
-
   background-color: white;
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
-
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
