@@ -17,10 +17,14 @@ const init = function () {
 };
 const switchPlayer = function () {
   if (activePlayer === 0) {
-    document.querySelector(".btn-box").style.left = "50%";
+    if (window.screen.width >= 703) {
+      document.querySelector(".btn-box").style.left = "50%";
+    }
     activePlayer = 1;
   } else {
-    document.querySelector(".btn-box").style.left = "0";
+    if (window.screen.width >= 703) {
+      document.querySelector(".btn-box").style.left = "0";
+    }
     activePlayer = 0;
     console.log(dice);
     if (dice[0] > dice[1]) {
