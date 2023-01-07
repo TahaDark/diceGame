@@ -104,6 +104,11 @@ main {
 .hide {
   display: none;
 }
+a {
+  text-decoration: none;
+  color: unset;
+  font-weight: bold;
+}
 #name {
   font-size: 2rem;
   color: rgba(0, 0, 0, 0.712);
