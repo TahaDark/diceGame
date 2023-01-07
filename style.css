@@ -104,7 +104,14 @@ main {
 .hide {
   display: none;
 }
-
+#name {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.712);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+}
 @media (max-width: 865px) {
   main {
     flex-direction: column;
@@ -131,4 +138,4 @@ main {
     margin-bottom: 0;
     background-color: white;
   }
-} ;
+}
