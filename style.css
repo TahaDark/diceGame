@@ -124,8 +124,12 @@ a {
     width: 100vw;
     min-width: unset;
   }
+
   .players h2 {
     font-size: 3rem;
+  }
+  .players p {
+    margin-bottom: 0;
   }
   .score {
     font-size: 5rem;
@@ -142,5 +146,10 @@ a {
   .roll-btn {
     margin-bottom: 0;
     background-color: white;
+  }
+  .dice {
+    width: 90px;
+    margin-bottom: 0;
+    margin-top: 30px;
   }
 }
